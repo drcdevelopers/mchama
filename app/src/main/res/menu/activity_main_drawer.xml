@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/first">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_request_loan"
+            android:icon="@drawable/ic_request"
+            android:title="Request for a Loan" />
+        <item
+            android:id="@+id/nav_reports"
+            android:icon="@drawable/ic_reports"
+            android:title="Account Reports" />
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/second">
+        <item
+            android:id="@+id/nav_projects"
+            android:icon="@drawable/ic_chama_projects"
+            android:title="Chama Projects" />
+        <item
+            android:id="@+id/nav_project_reports"
+            android:icon="@drawable/ic_act_report"
+            android:title="Activities/project Reports" />
+        <item
+            android:id="@+id/nav_minutes"
+            android:icon="@drawable/ic_minutes"
+            android:title="Minutes" />
+        <item
+            android:id="@+id/nav_notif"
+            android:icon="@drawable/ic_notif"
+            android:title="Notifications" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
